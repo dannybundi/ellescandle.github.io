@@ -1,7 +1,7 @@
 [
     {
         "name": "Beard Balm",
-        "image": "../Images/Beard_Balm.jpg",
+        "image": "/Images/Beard_Balm.jpg",
         "price": "350",
         "ingredients": "Shea butter, Coconut oil, Jojoba oil, Beeswax, Tea tree oil, Rosemary oil",
         "benefits": "Softens and conditions beard hair, Light to medium hold, Reduces Itch and Irritation, Promotes Healthy Growth, Hydrates and Nourishes Skin, Adds Shine and Luster, Improved manageability "
