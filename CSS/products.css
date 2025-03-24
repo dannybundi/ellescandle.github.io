@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 5px 20px;
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    box-shadow: 0 2px 3px rgba(145, 142, 142, 0.9);
+    padding: 10px 20px;
+}
+
+.navbar li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 450;
+    transition: all 0.5s;
+    padding: 2px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.navbar li:nth-child(2) {
+    font-weight: bolder;
+}
+
+.navbar li:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Main */
+main {
+    padding: 3px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    gap: 20px;
+}
+
+.candle-products {
+    padding: 10px;
+    width: 400px;
+}
+
+.candles {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+}
+
+.candles .image {
+    position: relative;
+}
+
+.candles .image img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.candles .image h2 {
+    opacity: 0;
+    position: absolute;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    bottom: 10px;
+    width: 100%;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.candles .image:hover h2 {
+    opacity: 1;
+}
+
+.candles .candle-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+}
+
+
+.candle-details label {
+    width: 100%;
+    border: none;
+}
+
+.candle-details label select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.candle-details button {
+    width: 100%;
+    padding: 10px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.candle-details button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}
+
+.candles .candle-ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 5px;
+}
+
+.candle-ingredients li {
+    align-self: flex-start;
+    list-style-position: inside;
+    font-weight: 350;
+}
+
+.other-products {
+    padding: 10px;
+    width: 400px;
+}
+
+.other-products .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+}
+
+.other-products .item .image {
+    position: relative;
+}
+
+.other-products .item .image img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.other-products .item .image h2 {
+    opacity: 0;
+    position: absolute;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    bottom: 10px;
+    width: 100%;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-products .item .image:hover h2 {
+    opacity: 1;
+}
+
+.other-products .item .details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.other-products .item .details button {
+    width: 100%;
+    padding: 10px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.other-products .item .details button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}
+
+.other-products .item .ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 5px;
+}
+
+/* Cart */ 
+.cart {
+    position: fixed;
+    top: 10px;
+    right: -1000px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 450px;
+    height: 600px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f8f8f8;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.cart.show {
+    right: 10px;
+}
+
+.cart .cart-item .cart-product {
+    width: 100%;
+    display: flex !important;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red !important;
+}
+
+.cart .cart-item {
+    width: 100%;
+}
+
+.cart .cart-item #remove-item {
+    width: 50px;
+}
+
+.cart .button {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart .button #check-out {
+    width: 100%;
+    padding: 7px 7px;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+
+.cart .button .cancel {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+}
+
+/* Check Out */
+.check-out {
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    left: -1010px;
+    width: 450px;
+    height: 600px;
+    background-color: #333;
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.check-out.show {
+    left: 10px;
+}
+
+.check-out h2 {
+    margin-bottom: 5px;
+}
+
+.check-out input {
+    padding-left: 6px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 350;
+    opacity: 0.9;
+}
+
+.check-out input[type="tel"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.check-out input:focus {
+    border: 2px solid #d9c3ae;
+    outline: none;
+}
+
+.check-out .button {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.check-out .button .send {
+    width: 100%;
+    padding: 7px 7px;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+
+.check-out .button .cancel {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 3px 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 2 columns */
+        gap: 20px;
+    }
+
+    .navbar li {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    main {
+        padding: 3px 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

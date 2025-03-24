@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Beard Balm",
+        "image": "../Images/Beard_Balm.jpg",
+        "price": "350"
+    },
+    {
+        "name": "Beard Oil",
+        "image": "../Images/Beard_Oil.jpg",
+        "price": "450"
+    },
+    {
+        "name": "Body Scrub",
+        "image": "../Images/Body_Scrub.jpg",
+        "price": "500"
+    },
+    {
+        "name": "Body Wash",
+        "image": "../Images/Body_Wash.jpg",
+        "price": "250"
+    },
+    {
+        "name": "Hair Oil",
+        "image": "../Images/Hair_Oil.jpg",
+        "price": "500"
+    },
+    {
+        "name": "Hair Shampoo",
+        "image": "../Images/Hair_Shampoo.jpg",
+        "price": "250"
+    },
+    {
+        "name": "Lip Balm",
+        "image": "../Images/Lip_Balm.jpg",
+        "price": "200"
+    },
+    {
+        "name": "Lip Oil",
+        "image": "../Images/Lip_Oil.jpg",
+        "price": "250"
+    },
+    {
+        "name": "Lemon Candle",
+        "image": "../Images/Lemon_hand.jpg",
+        "price": "250"
+    },
+    {
+        "name": "PepperMint Candle",
+        "image": "../Images/Peppermint.jpg",
+        "price": "250"
+    }
+]

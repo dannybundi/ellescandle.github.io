@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Beard Balm",
+        "image": "../Images/Beard_Balm.jpg",
+        "price": "350",
+        "ingredients": "Shea butter, Coconut oil, Jojoba oil, Beeswax, Tea tree oil, Rosemary oil",
+        "benefits": "Softens and conditions beard hair, Light to medium hold, Reduces Itch and Irritation, Promotes Healthy Growth, Hydrates and Nourishes Skin, Adds Shine and Luster, Improved manageability "
+    },
+    {
+        "name": "Body Scrub",
+        "image": "../Images/Body_Scrub.jpg",
+        "price": "500",
+        "ingredients": "Sugar, Coconut oil, Avocado oil, Vitamin E oil, Body wash, Fragrance",
+        "benefits": "Gentle exfoliation, Hydration, Improved Skin Texture, Radiant glow, Soothing and nourishing"
+    },
+    {
+        "name": "Hair Oil",
+        "image": "../Images/Hair_Oil.jpg",
+        "price": "500",
+        "ingredients": "Castor oil, Rosemary oil, Lavender oil, Coconut oil, Avocado oil, Jojoba oil, Tea tree oil",
+        "benefits": "Stimulates hair growth, Strengthens and reduces breakage, Deep Hydration, Soothes scalp Irritation, Improved Manageability"
+    },
+    {
+        "name": "Lip Balm",
+        "image": "../Images/Lip_Balm.jpg",
+        "price": "200",
+        "ingredients": "Beeswax, Coconut oil, Shea butter, Vitamin E oil",
+        "benefits": "Intense moisture, Protective barrier, Soothes and heals irritates lips, Soft and smooth lips, Prevents chapping, Comfortable feel"
+    },
+    {
+        "name": "Lip Oil",
+        "image": "../Images/Lip_Oil.jpg",
+        "price": "250",
+        "ingredients": "Castor oil, Jojoba oil, Coconut oil, Carrot oil, Vitamin E oil",
+        "benefits": "Hydration, Glossy shine, Nourishment and revitalization, Lightweight Feel"
+    },
+    {
+        "name": "Body Oil",
+        "image": "../Images/Body_Oil_2.jpg",
+        "price": "500",
+        "ingredients": "Coconut oil, Jojoba oil, Avocado oil, Carrot oil, Vitamin E oil, Castor oil, Lavender oil",
+        "benefits": "Hydration, Nourishing, Soft,smooth and supple skin, Lightweight Feel, Relaxing and soothing, Improved Skin Texture and tone"
+    },
+    {
+        "name": "Body Butter",
+        "image": "../Images/Body_Butter.jpg",
+        "price": "650",
+        "ingredients": "Jojoba oil, Shea butter, Coconut oil, Beeswax, Vitamin E oil, Arrowroot powder",
+        "benefits": "Hydration , Protective barrier, Soft and smooth skin, Non-greasy feel, Nourishing and revitalizing, Improved Skin texture"
+    }
+]
